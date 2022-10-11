@@ -59,7 +59,7 @@ void Reparados(int *num_Rep[])
 
 }
 
-void Imprimir(int arreglo_num[])
+void Imprimir(int arreglo_num[], int indice)
 {
 
 }

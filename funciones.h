@@ -26,6 +26,6 @@ void Descuadrados(int *num_Desc[]);
 void Reparados(int *num_Rep[]);
 
 //Función que despliegue en pantalla los n elementos un arreglo. Usarla para ver los dos arreglos creados. 
-void Imprimir(int arreglo_num[]);
+void Imprimir(int arreglo_num[], int indice);
 
 #endif  //FUNCIONES_h
