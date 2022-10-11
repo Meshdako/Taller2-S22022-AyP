@@ -1,6 +1,18 @@
 #ifndef FUNCIONES_H
 #define FUNCIONES_H
 
+//Último dígito
+int Ult_Dig(int num);
+
+//Primer dígito
+int Pri_Dig(int num);
+
+//Primeros dos dígitos.
+int Pri_2_Dig(int num);
+
+//Es par
+int Es_Par(int num);
+
 //Función que determine si un número natural es descuadrado. 
 int Descuadrado(int num);
 
