@@ -49,17 +49,31 @@ int Reparado(int num)
         return 0;
 }
 
-void Descuadrados(int *num_Desc[])
+void Descuadrados(int *num_Desc)
 {
-
+    int indice;
+    for(int i = 1, indice = 0; indice < 20; i++){
+        if(Descuadrado(i) == 1){
+            num_Desc[indice] = i;
+            indice++;
+        }
+    }
 }
 
-void Reparados(int *num_Rep[])
+void Reparados(int *num_Rep)
 {
-
+    int indice;
+    for(int i = 1, indice = 0; indice < 20; i++){
+        if(Reparado(i) == 1){
+            num_Rep[indice] = i;
+            indice++;
+        }
+    }
 }
 
-void Imprimir(int arreglo_num[], int indice)
+void Imprimir(int *arreglo_num)
 {
-
+    for(int i = 0; i < 20; i++){
+        printf("\n%d -> %d", i, arreglo_num[i]);
+    }
 }

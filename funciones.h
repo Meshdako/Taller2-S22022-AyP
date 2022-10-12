@@ -20,12 +20,12 @@ int Descuadrado(int num);
 int Reparado(int num);
 
 //Función que cree un arreglo con los primeros n ≤ 20 números descuadrados. 10
-void Descuadrados(int *num_Desc[]);
+void Descuadrados(int *num_Desc);
 
 //Función que cree un arreglo con los primeros n ≤ 20 números reparados.
-void Reparados(int *num_Rep[]);
+void Reparados(int *num_Rep);
 
 //Función que despliegue en pantalla los n elementos un arreglo. Usarla para ver los dos arreglos creados. 
-void Imprimir(int arreglo_num[], int indice);
+void Imprimir(int *arreglo_num);
 
 #endif  //FUNCIONES_h
